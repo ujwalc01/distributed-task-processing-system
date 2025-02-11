@@ -69,13 +69,6 @@
 			<artifactId>spring-security-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		
-		<!-- https://mvnrepository.com/artifact/io.github.cdimascio/java-dotenv -->
-<dependency>
-    <groupId>io.github.cdimascio</groupId>
-    <artifactId>java-dotenv</artifactId>
-    <version>5.2.2</version>
-</dependency>
 
 	</dependencies>
 
@@ -92,12 +85,8 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
-					<excludes>
-						<exclude>
-							<groupId>org.projectlombok</groupId>
-							<artifactId>lombok</artifactId>
-						</exclude>
-					</excludes>
+					
+					
 				</configuration>
 			</plugin>
 		</plugins>
